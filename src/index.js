@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ToDo from "./TodoList/ToDo"
+import App from "./pizzadata/App"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <ToDo/>   
+        <App/>  
     </>
 );
